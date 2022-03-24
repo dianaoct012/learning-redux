@@ -1,0 +1,7 @@
+{
+    type: "CHANGE_USER",
+    payload: {
+        id: "",
+        name: ""        
+    }
+}

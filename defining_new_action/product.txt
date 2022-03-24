@@ -1,0 +1,16 @@
+{
+    type: "ADD_PRODUCT",
+    payload: {
+        id: 1
+        name: "Camera",
+        price: 12,
+        discount: 0,
+    }
+}
+
+{
+    type: "REMOVE_PRODUCT",
+    payload: {
+        productId: "1"
+    }
+}
