@@ -1,14 +1,14 @@
 {
-    type: "ADD_PRODUCT_TO_CART,
+    type: "ADD_PRODUCT,
     payload: {
-        productId: "",
+        productId: 1,
         quantity: ""
     }
 }
 
 {
-    type: "REMOVE_PRODUCT_TO_CART,
+    type: "REMOVE_PRODUCT,
     payload: {
-        productId: ""
+        productId: 1
     }
 }

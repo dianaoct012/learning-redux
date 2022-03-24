@@ -7,7 +7,7 @@ import * as actions from './actionTypes';
  */
 export function productAdded(product = {}){
     return {
-        type: actions.PRODUCT_ADDED,
+        type: actions.ADD_PRODUCT,
         payload: {
             name: product.name ? product.name : null,
             price: product.price ? product.price : null
@@ -25,16 +25,3 @@ export const productRemoved = params => ({
       id : params.id,
   }
   });
-
-
-/**
- * @param { id, hasDiscount } params
- * @returns
- */
- export const productMarkAsDiscount = params => ({
-  type: actions.PRODUCT_MARK_AS_DISCOUNT,
-  payload: {
-      id : params.id,
-      hasDiscount: params.hasDiscount
-  }
-});
